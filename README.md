@@ -44,7 +44,7 @@ And the resulting parameters:
 ### Model accuracy
 ![Model accuracy loss](https://github.com/marcuspttr/deep-learning-challenge/blob/main/Assets/model_accuracy.PNG)
 
-After compling and fitting my model (many, many times) my final accuracy didn't hit the intended 75%. 
+After compiling and fitting my model (many, many times) my final accuracy didn't hit the intended 75%. 
 - I tried different cut off points for my Application and Classification columns data (using 100 or 50 as cut offs to not overgroup the data or 1000 to eliminate the spread of the data alltogether). 
 - I tried different activation functions such as tanh or sigmoid all the way through (testing the idea that neural networks like calculations to be between 0 and 1).
 - I played with different levels of layers and neurons but that seemed to make things worse, whereas most other changes seemed negligible.
