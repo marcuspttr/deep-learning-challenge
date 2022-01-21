@@ -1,21 +1,23 @@
 # deep-learning-challenge
 Making a deep learning network to help a charity track funds.
 
-# unsupervised-learning
-Using unsupervised machine learning methods to help cluster cryptocurrencies.
-
 ## Some thoughts:
-- This was an intense assignment bringing together almost a "best of" our unsupervised machine learning methods.
-- The overall idea of the assignment was very interesting, with reports on cryptocurrencies being somewhere between "fad" and "the future".
+- I struggled and had to do some extra research when creating the layers and number of neurons for my neural network.
+- I also had to look into creating callback steps to the fitting process.
+- It was a interesting homework, try as I might, I could not improve the accuracy of my model. It hovered around 72 to 74% accuracy pretty consistently.
 
 ## The work:
 
 ### A picture of the initial data provided:
 ![Initial upload of data](https://github.com/marcuspttr/deep-learning-challenge/blob/main/Assets/intial_load.PNG)
+The intial data set up looks at the funding dispressed by a charity. It contains a lot of information such as the name of the organization the funding was provided to,
+the type of application, what the use case was, and of course money amounts and whether or not the funding was successful. 
 
+I initially dropped the EIN and Name as they were not important factors beyond identification and tracking.
 
 ### Preview of data after cleaning & preparing:
 ![Overview of data](https://github.com/marcuspttr/deep-learning-challenge/blob/main/Assets/data_overview.PNG)
+Here is a preview of the data at that point and how many different values were contained in each remaining column.
 
 Running the indicated dimensionality reduction to maintain 90% of the explained variance, we limited the data to 12 principal components.
 Created a new clean dataframe for reference in the future calculations.
